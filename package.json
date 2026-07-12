@@ -55,7 +55,7 @@
     "tailwindcss-animate": "^1.0.7",
     "tsup": "^8.5.1",
     "typescript": "^5.1.6",
-    "vite": "^7.3.3",
+    "vite": "^7.3.6",
     "vite-plugin-node-polyfills": "^0.25.0"
   },
   "dependencies": {
@@ -67,9 +67,20 @@
   },
   "pnpm": {
     "overrides": {
+      "@coinbase/cdp-sdk>axios": "1.18.1",
+      "@orderly.network/hooks>lodash": "4.18.1",
+      "@orderly.network/portfolio>lodash": "4.18.1",
+      "@orderly.network/wallet-connector-privy>lodash": "4.18.1",
+      "@privy-io/react-auth>js-cookie": "3.0.8",
       "picomatch@<2.3.2": "2.3.2",
       "picomatch@>=4.0.0 <4.0.4": "4.0.4",
-      "@toruslabs/solana-embed>lodash-es": "4.18.1"
+      "@toruslabs/solana-embed>lodash-es": "4.18.1",
+      "axios>form-data": "4.0.6",
+      "h3>defu": "6.1.7",
+      "jayson>ws": "7.5.11",
+      "porto>hono": "4.12.29",
+      "rpc-websockets>ws": "8.21.0",
+      "storybook>ws": "8.21.0"
     }
   }
 }
