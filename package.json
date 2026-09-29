@@ -1,5 +1,5 @@
 {
-  "name": "@orderly.network/orderbook-shimmer-plugin",
+  "name": "@tarnadas/orderbook-shimmer-plugin",
   "version": "0.0.5",
   "description": "Template for creating a new Orderly.network package",
   "license": "MIT",
